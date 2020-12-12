@@ -1,0 +1,77 @@
+.tl-item {
+  background-color: #ffffff;
+  color: #284566;
+}
+
+.input-group-text {
+  background-color: #282828;
+  border: none;
+}
+
+.iconhov:hover{
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.548);
+  transition: all .3s ease-in-out;
+}
+
+.taskbg {
+  background-color:#f7faff;
+  
+}
+
+.task-selected {
+  font-weight: bold;
+}
+.checkcolor {
+  color: rgba(0, 0, 0, 0.616);
+  cursor: pointer;
+}
+
+
+.trashstyle {
+  color: #284566;
+  cursor: pointer;
+}
+
+.pstyle {
+  padding-top: 14px;
+}
+
+.txtstyle {
+color: #8ca1ba;
+}
+
+.starstyle {
+  cursor: pointer;
+  background-image: url('../../img/star.png');
+  background-repeat: no-repeat;
+  transition: transform .3s linear;
+}
+
+.starstyle:hover {
+  transform: scale(1.03);
+}
+
+.starbox {
+  width: 20px;
+  height: 20px;
+}
+
+.fillstar {
+  cursor: pointer;
+  background-image: url('../../img/fillstar.png');
+}
+
+.titlecolor {
+  color:#000000;
+}
+
+/* @keyframes shake  {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+} */
+

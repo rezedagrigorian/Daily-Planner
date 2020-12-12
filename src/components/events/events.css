@@ -1,0 +1,23 @@
+.calendar {
+  border-top-right-radius: 20px;
+}
+
+.react-calendar {
+  border: none !important;
+}
+
+.calstyle {
+  font-size: 15px;
+}
+
+.react-calendar__tile--now {
+  background: #ddd !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #1c1c9ee3 !important;
+}
+
+.react-calendar__tile, .react-calendar__navigation__label, .react-calendar__navigation__arrow {
+  border-radius: 3px;
+}

@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+    "react/prop-types": 0,
+    "comma-dangle": 0,
+    "control-has-associated-label" : 0,
+    "anchor-is-valid": 0,
+    "anchor-has-content": 0,
+
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/no-static-element-interactions": 0
+  }
+}

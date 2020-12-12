@@ -1,0 +1,28 @@
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-error {
+  border-color: #d35400 !important;
+}
+
+.addtaskbtn {
+  color: #284566;
+  /* background-color: #f7faff; */
+  background-color: #1d1c9e;
+  color: #c7daff;
+}
+
+.addtaskbtn:hover {
+  color: #c7daff;
+  background-color: #1c1c9ee3;
+  transition: all 0.3s ease-in-out;
+}
+
+.addtaskimg {
+  width: 276px;
+  height: 201px;
+  background-image: url(../../img/one.png);
+  background-repeat: no-repeat;
+  border: none;
+}

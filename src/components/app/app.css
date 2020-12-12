@@ -1,0 +1,93 @@
+.navbar-expand-sm {
+  background-color: #5772dd;
+}
+
+.rowbg {
+  background-color:none;
+}
+
+.contbg {
+  background-color:  #f7faff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.item {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.rightwrap {
+  background-color: #ffffff;
+}
+
+a:hover {
+  color: #8ca1ba;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: transparent;
+}
+
+.btnstyle {
+  width: 45px;
+  position: absolute;
+  right: 15px;
+}
+
+.wrpstyle {
+  position: relative;
+} 
+
+.inptstyle:focus {
+  background-color: #6e8ae5;
+  border: none;
+}
+
+.inptstyle{
+  background-color:  #6e8ae5;
+  border: none;
+}
+
+.octicon :focus{
+  border: none;
+}
+
+.octicon {
+  color: #c7daff;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #c7daff;
+}
+
+input, textarea {
+  color: white;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url(../../img/1.png);
+  border-color:  #c7daff; /* Цвет границы */ 
+  border-style: solid; 
+  border-width: thin;
+}
+
+.calendar {
+  background-color: #ffffff;
+  color: #8ca1ba;
+  font-size: 20px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #c7daff;
+  background-color: #1d1c9e;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
