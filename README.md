@@ -9,12 +9,13 @@
 
 ## Описание проекта
 
-Daily-Planner - это сервис с небольшим набором функционала, предназначен для планирования задач. Поддерживает создание быстрых задач, а также задач с подробным описанием. Позволяет отслеживать аналитику текущих и выполненных дел, дату создания и отмечать их как избранные.
+Daily-Planner is a service with a small set of functionality, designed for task planning. It supports the creation of quick tasks, as well as tasks with detailed descriptions. It allows you to track analytics of current and completed tasks, the date of creation and mark them as favorites.
 
-## Зависимости проекта
+## Project dependencies
 
-Список DEV зависимостей:
+List of DEV dependencies:
 
+```
     -@babel/core: ^7.12.9,
     -@babel/preset-env: ^7.12.7,
     -@babel/preset-react: ^7.12.7,
@@ -44,23 +45,24 @@ Daily-Planner - это сервис с небольшим набором фун�
     -react-calendar: ^3.2.1,
     -react-dom: ^17.0.1,
     -react-icons: ^4.1.0
+```
 
-## Как развернуть проект
+## How to deploy the project
 
-Cкопировать проект к себе на компьютер: 
+Clone the project to your computer:
 
     git clone https://github.com/DesertoRaposa/Daily-Planner
 
-Установить зависимости командой: 
-
+Install dependencies with the command:
+```
     npm install
-
-Выполнить сборку и запустить:
-    
+```
+Build and run:
+   ``` 
     npm run build
     nrm start
-
-## Используемые технологии
+```
+## Technologies used
 React.js, Webpack, GIT, Node.js, Bootstrap
 
 
